@@ -1,0 +1,26 @@
+{{>libraryimp}}
+{{>navbar}}
+
+<div class="container">
+      <div class="row my-5">
+          <div class="col-sm col-md-4 mx-auto">
+               <h1 class="text-center login_form">Registeration Form</h1>
+                 <form class="form-signin" action="/register" method="post">
+                     <input type="text" class="form-conrol form_space" placeholder="First Name" required name="firstname"><br><br>
+                     <input type="password" class="form-conrol form_space" placeholder="Last Name" required name="lastnames"><br><br>
+                          <input type="email" class="form-conrol form_space" placeholder="email id" required name="email"><br><br>
+                     <input type="text" class="form-conrol form_space" placeholder="gender" required name="Gender"><br><br>
+                          <input type="tel" class="form-conrol form_space" placeholder="phone no" required name="PhoneNo"><br><br>
+                     <input type="password" class="form-conrol form_space" placeholder="Password" required name="password"><br><br>
+                       <input type="password" class="form-conrol form_space" placeholder="Confirm Password" required name="confirmpassword"><br><br>
+                         <input type="password" class="form-conrol form_space" placeholder="Account type(Saving or Current)" required name="Typeofacc"><br><br>
+                     <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+                 
+                 </form>
+                  <a href="/login" class="text-center register_urself">LOGIN</a>
+          </div>
+         
+      </div>
+  </div>
+{{>footer}}
+
